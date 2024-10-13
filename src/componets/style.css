@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .coding-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 45vh;
+    width: 100%;
+    background-color: aqua;
+    gap: 10px;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.251);
+  }
+  
+  textarea {
+    height: 70%;
+    width: 90%;
+    font-size: 1.3rem;
+  }
+  
+  .html, .css, .js {
+    margin-left: 15px;
+  }
+
+  .output {
+    height: 55vh;
+    width: 100%;
+  }
+  
+  .output h3{
+    font-size: 1.3rem;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
